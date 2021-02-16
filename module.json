@@ -2,7 +2,7 @@
     "name": "demonlord-addon",
     "title": "魔王之影汉化合集包",
     "description": "为FVTT平台的魔王之影系统提供的中文合集包",
-    "version": "0.8",
+    "version": "0.9",
     "author": "HXQXH",
     "minimumCoreVersion": "0.6.6",
     "compatibleCoreVersion": "0.7.9",
@@ -51,6 +51,13 @@
             "entity": "Item"
         },
         {
+            "name": "法术",
+            "label": "法术",
+            "system": "demonlord",
+            "path": "./packs/spell-chn.db",
+            "entity": "Item"
+        },
+        {
             "name": "浪客天赋",
             "label": "浪客天赋",
             "system": "demonlord",
@@ -62,6 +69,13 @@
             "label": "武器",
             "system": "demonlord",
             "path": "./packs/weapon-chn.db",
+            "entity": "Item"
+        },
+        {
+            "name": "弹药",
+            "label": "弹药",
+            "system": "demonlord",
+            "path": "./packs/ammo-chn.db",
             "entity": "Item"
         },
         {
@@ -95,5 +109,5 @@
     ],
     "url": "https://github.com/TI-130/demonlord-addon",
     "manifest": "https://raw.githubusercontent.com/TI-130/demonlord-addon/master/module.json",
-    "download": "https://github.com/TI-130/demonlord-addon/releases/download/0.8/demonlord-addon.zip"
+    "download": "https://github.com/TI-130/demonlord-addon/releases/download/0.9/demonlord-addon.zip"
 }
