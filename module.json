@@ -1,0 +1,99 @@
+{
+    "name": "demonlord-addon",
+    "title": "魔王之影汉化合集包",
+    "description": "为FVTT平台的魔王之影系统提供的中文合集包",
+    "version": "0.8",
+    "author": "HXQXH",
+    "minimumCoreVersion": "0.6.6",
+    "compatibleCoreVersion": "0.7.9",
+    "system":"demonlord",
+    "packs": [
+        {
+            "name": "护甲",
+            "label": "护甲",
+            "system": "demonlord",
+            "path": "./packs/armor-chn.db",
+            "entity": "Item"
+        },
+        {
+            "name": "语言",
+            "label": "语言",
+            "system": "demonlord",
+            "path": "./packs/language-chn.db",
+            "entity": "Item"
+        },
+        {
+            "name": "入门道途",
+            "label": "入门道途",
+            "system": "demonlord",
+            "path": "./packs/novice-path-chn.db",
+            "entity": "Item"
+        },
+        {
+            "name": "入门道途天赋",
+            "label": "入门道途天赋",
+            "system": "demonlord",
+            "path": "./packs/novice-path-trait-chn.db",
+            "entity": "Item"
+        },
+        {
+            "name": "种族",
+            "label": "种族",
+            "system": "demonlord",
+            "path": "./packs/race-chn.db",
+            "entity": "Item"
+        },
+        {
+            "name": "种族特质",
+            "label": "种族特质",
+            "system": "demonlord",
+            "path": "./packs/race-trait-chn.db",
+            "entity": "Item"
+        },
+        {
+            "name": "浪客天赋",
+            "label": "浪客天赋",
+            "system": "demonlord",
+            "path": "./packs/rouge-talent-chn.db",
+            "entity": "Item"
+        },
+        {
+            "name": "武器",
+            "label": "武器",
+            "system": "demonlord",
+            "path": "./packs/weapon-chn.db",
+            "entity": "Item"
+        },
+        {
+            "name": "药水",
+            "label": "药水",
+            "system": "demonlord",
+            "path": "./packs/potion-chn.db",
+            "entity": "Item"
+        },
+        {
+            "name": "冒险装备",
+            "label": "冒险装备",
+            "system": "demonlord",
+            "path": "./packs/adventure-gear-chn.db",
+            "entity": "Item"
+        },
+        {
+            "name": "随机表",
+            "label": "随机表",
+            "system": "demonlord",
+            "path": "./packs/randomtable-chn.db",
+            "entity": "RollTable"
+        },
+        {
+            "name": "起始装备列表",
+            "label": "起始装备列表",
+            "system": "demonlord",
+            "path": "./packs/starting-equipment-chn.db",
+            "entity": "JournalEntry"
+        }
+    ],
+    "url": "https://github.com/TI-130/demonlord-addon",
+    "manifest": "https://raw.githubusercontent.com/TI-130/demonlord-addon/master/module.json",
+    "download": "https://github.com/TI-130/demonlord-addon/releases/download/0.8/demonlord-addon.zip"
+}
